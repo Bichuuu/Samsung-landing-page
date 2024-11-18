@@ -1,0 +1,106 @@
+.video-section {
+    text-align: center;
+    margin: 40px 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+    /* border-radius: 10px; */
+  }
+  
+  .video-section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .video-section video {
+    max-width: 100%;
+    height: auto;
+  }
+ 
+
+.product-highlights {
+  padding: 50px 20px;
+  text-align: center;
+  background-color: #f4f4f4;
+}
+
+.product-highlights h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.product-grid {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.product-card {
+  width: 300px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  text-align: center;
+  transition: transform 0.2s;
+}
+
+.product-card:hover {
+  transform: scale(1.05);
+}
+
+.product-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.product-card h3 {
+  margin: 10px 0;
+  font-size: 1.2rem;
+  color: #000;
+}
+
+.product-card p {
+  font-size: 0.9rem;
+  color: #666;
+  padding: 0 10px 20px;
+}
+
+
+.footer-gradient {
+  background: linear-gradient(135deg, #000000, #494949);
+  background-size: 400% 400%;
+  animation: shine 15s ease infinite; 
+}
+
+
+@keyframes shine {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+
+.footer-gradient h5 {
+  font-size: 1.2rem;
+  margin-bottom: 15px;
+  color: #ffffff;
+}
+
+.footer-gradient p, .footer-gradient a {
+  font-size: 0.9rem;
+  color: #dcdcdc;
+}
+
+.footer-gradient a:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
